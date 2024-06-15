@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  <!-- google font-->
+    <link rel="stylesheet" href="weather.css">
+</head>  
+<body>
+    <div class="main">
+        <form class="weather">
+                <input type="text" class="Search" placeholder="Enter City Name">
+
+                <button type="submit" class="submit">  <i class="material-icons"> search </i> </button>  <!-- i class and inside seach cuz we want search button if anything else you want write that-->
+
+        </form>
+
+        <div class="display">  <!--  window + ; = emoji -->
+               <h1 class="citydisplay"></h1>
+              <p class="temp"></p>
+              <p class="humidity"></p>
+              <p class="dep"></p>
+              <p class="emoji"></p>
+              <p class="errordisplay"></p>  
+        </div>
+
+</div>
+<script src="weather.js"></script>
+</body>
+</html>

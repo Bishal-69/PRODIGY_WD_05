@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: sandybrown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background-color: white;
+    max-width: 480px;
+    margin: 50px auto;  
+    height: 82vh;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+   
+}
+
+.Search {
+    width: 400px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    border: 3px solid #3498db;
+}
+
+.submit {
+    width: 50px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 15px;
+    background-color: #3498db;
+    border: 3px solid #3498db;
+}
+
+.submit:active {
+    background-color: rgb(9, 100, 153);
+    border: 3px solid rgb(9, 100, 153);
+}
+
+.display {
+    width: 80%;
+    height: 71vh;
+    background: linear-gradient(#5EC4D6 5%, rgb(239, 154, 79), #FFCC00 70%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    margin: 20px auto;
+    justify-content: center;
+    box-shadow: 2px 2px 5px hsla(0, 5%, 9%, 0.5);
+    display: none;
+}
+
+.display h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.display .temp  {
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.display p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.humidity{
+    font-size: 1.2rem;
+  
+}
+
+.dep{
+    font-size:2rem;
+    font-style: italic;
+}
+
+.emoji{
+    font-size: 4rem;
+}
+
+.display .errordisplay{
+    font-size:2rem;
+    margin-bottom: 5px;
+}
